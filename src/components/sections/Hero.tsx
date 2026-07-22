@@ -30,8 +30,8 @@ export function Hero() {
         <Reveal className="hero-visual" delay={0.12}>
           <div className="hero-image-wrap">
             <Image
-              src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1400&q=85"
-              alt="A professional reviewing career notes at a desk"
+              src="https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1400&q=85"
+              alt="A young Indian professional preparing a CV at a desk with a laptop"
               width={1400}
               height={1050}
               priority

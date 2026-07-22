@@ -26,8 +26,8 @@ export function Services() {
         <div className="services-layout">
           <Reveal className="service-image">
             <Image
-              src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1300&q=85"
-              alt="Laptop and notebook used to review a professional profile"
+              src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1300&q=85"
+              alt="A professional planning a career move at a laptop and notebook"
               width={1300}
               height={1040}
               sizes="(max-width: 1023px) 100vw, 46vw"

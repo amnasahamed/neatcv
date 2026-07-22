@@ -39,11 +39,10 @@ export const metadata: Metadata = {
 const themeScript = `
   try {
     const stored = localStorage.getItem('neatcv-theme');
-    const theme = stored === 'dark' || stored === 'light'
-      ? stored
-      : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-    document.documentElement.dataset.theme = theme;
-  } catch (_) {}
+    document.documentElement.dataset.theme = stored === 'dark' ? 'dark' : 'light';
+  } catch (_) {
+    document.documentElement.dataset.theme = 'light';
+  }
 `;
 
 export default function RootLayout({

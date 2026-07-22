@@ -7,14 +7,7 @@ export function ThemeProvider() {
     const root = document.documentElement;
     const stored = localStorage.getItem("neatcv-theme");
 
-    if (stored === "dark" || stored === "light") {
-      root.dataset.theme = stored;
-    } else {
-      root.dataset.theme = window.matchMedia("(prefers-color-scheme: dark)")
-        .matches
-        ? "dark"
-        : "light";
-    }
+    root.dataset.theme = stored === "dark" ? "dark" : "light";
   }, []);
 
   return null;

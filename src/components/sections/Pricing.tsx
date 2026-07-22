@@ -5,36 +5,27 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 
 const plans = [
   {
-    name: "CV refresh",
-    price: "From £95",
-    description: "For a focused rewrite of your current CV.",
+    name: "CV Writing",
+    price: "₹499",
+    description: "A polished, ATS-ready resume for your next application.",
     features: [
-      "ATS-friendly CV",
-      "Target-role positioning",
-      "Two revision rounds",
+      "ATS-friendly resume",
+      "Professional design",
+      "Word and PDF files",
+      "One free revision",
     ],
   },
   {
-    name: "Complete profile",
-    price: "From £155",
-    description: "For a CV and LinkedIn profile that work together.",
+    name: "CV + LinkedIn",
+    price: "₹799",
+    description: "A consistent CV and LinkedIn presence built to be found.",
     features: [
-      "ATS-friendly CV",
-      "LinkedIn profile rewrite",
-      "Keyword direction",
-      "Two revision rounds",
+      "Everything in the ₹499 package",
+      "LinkedIn profile optimization",
+      "Recruiter-friendly profile",
+      "Better job visibility",
     ],
     featured: true,
-  },
-  {
-    name: "LinkedIn focus",
-    price: "From £75",
-    description: "For a clearer, more searchable professional profile.",
-    features: [
-      "Headline and About rewrite",
-      "Experience optimization",
-      "Profile checklist",
-    ],
   },
 ];
 
@@ -46,10 +37,10 @@ export function Pricing() {
           <SectionHeading
             eyebrow="Simple pricing"
             title="Choose the support you need."
-            body="Final pricing depends on document length and complexity. You will receive a clear quote before any work begins."
+            body="Straightforward packages for a stronger application. You will know exactly what is included before we begin."
           />
         </Reveal>
-        <div className="pricing-layout">
+        <div className="pricing-layout pricing-layout-two">
           {plans.map((plan, index) => (
             <Reveal
               key={plan.name}

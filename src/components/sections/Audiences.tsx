@@ -7,24 +7,24 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 const audiences = [
   {
     title: "Starting out",
-    body: "Turn projects, coursework, internships, and part-time work into evidence of what you can contribute.",
+    body: "Turn projects, coursework, internships, and part-time work into clear evidence of what you can contribute.",
     image:
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1000&q=85",
-    alt: "Graduate working with classmates at a table",
+      "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1000&q=85",
+    alt: "A young professional reviewing notes with peers at a shared table",
   },
   {
     title: "Returning to work",
     body: "Explain time away with confidence and bring your skills, experience, and current direction back into focus.",
     image:
-      "https://images.unsplash.com/photo-1573496799515-eebbb63814f2?auto=format&fit=crop&w=1000&q=85",
-    alt: "Professional preparing to return to work",
+      "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1000&q=85",
+    alt: "A working professional preparing for her next opportunity at a desk",
   },
   {
     title: "Changing careers",
     body: "Connect transferable strengths to your new field so recruiters can see the logic behind your move.",
     image:
-      "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1000&q=85",
-    alt: "Professional discussing a career plan",
+      "https://images.unsplash.com/photo-1573497019418-b400bb3ab074?auto=format&fit=crop&w=1000&q=85",
+    alt: "A professional planning a career transition with a notebook and laptop",
   },
 ];
 

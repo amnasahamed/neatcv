@@ -21,8 +21,8 @@ export function Deliverables() {
         <div className="deliverables-grid">
           <Reveal className="deliverable deliverable-image">
             <Image
-              src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&w=1300&q=85"
-              alt="Printed professional documents ready for review"
+              src="https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?auto=format&fit=crop&w=1300&q=85"
+              alt="A printed resume and a notebook arranged on a desk for review"
               width={1300}
               height={950}
               sizes="(max-width: 767px) 100vw, 58vw"

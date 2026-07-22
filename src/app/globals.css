@@ -812,6 +812,12 @@ body {
   margin-top: 52px;
 }
 
+.pricing-layout-two {
+  grid-template-columns: 1fr 1.05fr;
+  max-width: 880px;
+  margin-inline: auto;
+}
+
 .pricing-card {
   display: flex;
   min-height: 470px;
@@ -989,6 +995,11 @@ body {
 
   .pricing-layout {
     grid-template-columns: 1fr;
+  }
+
+  .pricing-layout-two {
+    grid-template-columns: 1fr;
+    max-width: none;
   }
 
   .pricing-card {
